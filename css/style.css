@@ -1,0 +1,98 @@
+
+/* header and logo */
+header img {
+  display: inline-block;
+  vertical-align: top;
+  height: 250px;
+}
+
+header {
+  /* background-image: url("../img/jesus-kiteque-224069.jpg"); */
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 6vw 2em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #000;
+}
+
+header a:hover {
+  background:  #e81c4f;
+  color: white;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'cookie_milk';
+    src: 
+        url('../fonts/cookies_milk/cookies_milk-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'minimal';
+    src: 
+        url('../fonts/minimal/Minimal.ttf')
+}
+
+@font-face {
+    font-family: 'pastis';
+    src: 
+        url('../fonts/minimal/DK Pastis.otf')
+}
+
+
+/* main content */
+main {
+  margin: 0 auto;
+  max-width: 30em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 1em 1em;
+  font-size: 2em;
+  color: #555;
+}
+
+h1 {
+    font-family: "cookie_milk";
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+a {
+  color: #808080;
+}
+
+/* footer */
+footer {
+    padding-top: 5em;
+}
+
+footer .button {
+  font-size: 0.6em;
+  padding: 1em 2em;
+}
+
+/* classes */
+.centering {
+    text-align: center;
+}
+
+.info {
+    font-family: "minimal"
+}
